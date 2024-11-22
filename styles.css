@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.tutorial {
+  text-align: center;
+}
+
+#chooseButton {
+  margin-top: 10px;
+}
+
+.imageContainer {
+  margin-top: 10px;
+  width: 800px;
+  height: 800px;
+  background-color: gray;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+.format {
+  width: 100%;
+}
+
+.scrollButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+
+.scrollButtonContainer button {
+  height: 40px;
+}

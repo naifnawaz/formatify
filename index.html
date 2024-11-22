@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="logo">FORMATIFY</h1>
+    <p class="tutorial">
+      choose a document that you want to find the format for and we'll give you
+      a couple of examples!!
+    </p>
+    <label for="formats">Choose a format:</label>
+    <select name="formats" id="dropdown">
+      <option value="casual letter">casual letter</option>
+      <option value="formal letter">formal letter</option>
+    </select>
+    <button onclick="chosenOption()" id="chooseButton">Display</button>
+    <div class="imageContainer">
+      <img
+        src="images/Screenshot_20241108_090323.png"
+        alt="format"
+        class="format"
+      />
+    </div>
+    <div class="scrollButtonContainer">
+      <button id="previous" onclick="previous()"><<</button>
+      <p id="egNo">1</p>
+      <button id="next" onclick="next()">>></button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

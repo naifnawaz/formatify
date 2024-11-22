@@ -23,15 +23,16 @@ body {
 .imageContainer {
   margin-top: 10px;
   width: 800px;
-  height: 800px;
   background-color: gray;
-  object-fit: scale-down;
-  overflow: hidden;
 }
 
 #image {
   width: 100%;
   transition: all 1s ease;
+}
+
+#image:hover {
+  transform: scale(1.01);
 }
 
 .scrollButtonContainer {

@@ -5,6 +5,8 @@ const casualLetter = [
 
 function chosenOption() {
   let selected = document.getElementById("dropdown").selectedIndex;
+  const image = document.getElementById("image");
+  image.removeAttribute("style");
   switch (selected) {
     case 0:
       generateFormat(casualLetter);
@@ -14,8 +16,5 @@ function chosenOption() {
 function generateFormat(format) {
   const image = document.getElementById("image");
   let index = 0;
-
-  image.src = format[index];
-  index++;
   image.src = format[index];
 }

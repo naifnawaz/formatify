@@ -29,8 +29,9 @@ body {
   overflow: hidden;
 }
 
-.format {
+#image {
   width: 100%;
+  transition: all 1s ease;
 }
 
 .scrollButtonContainer {

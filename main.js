@@ -1,7 +1,6 @@
 let image = document.getElementById("image");
 const btnNext = document.getElementById("next");
 const btnPrevious = document.getElementById("previous");
-let selected = document.getElementById("dropdown").selectedIndex;
 let index = 0;
 let selectedFormat = [];
 const casualLetter = [
@@ -9,13 +8,23 @@ const casualLetter = [
   "images/Screenshot_20241108_090323.png",
 ];
 
+const formalLetter = [
+  "images/formallettersample1.jpeg",
+  "images/formallettersample2.jpg",
+];
+
 function chosenOption() {
+  let selected = document.getElementById("dropdown").selectedIndex;
   image.removeAttribute("style");
   image.removeAttribute("onerror");
   switch (selected) {
     case 0:
       selectedFormat = casualLetter;
       generateFormat(casualLetter);
+      break;
+    case 1:
+      selectedFormat = formalLetter;
+      generateFormat(formalLetter);
       break;
   }
 }

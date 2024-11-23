@@ -20,12 +20,17 @@ function chosenOption() {
 }
 
 function generateFormat(format) {
-  btnNext.addEventListener("click", next);
   image.src = format[index];
 }
 
+btnNext.addEventListener("click", next);
+
 function next() {
   index++;
-  console.log(index);
-  generateFormat(selectedFormat);
+  if (index >= selectedFormat.length) {
+    index = 0;
+    generateFormat(selectedFormat);
+  } else {
+    generateFormat(selectedFormat);
+  }
 }

@@ -14,7 +14,7 @@ body {
   position: absolute;
   z-index: -1;
   background-image: url("images/background2.svg");
-  aspect-ratio: 960/540;
+  aspect-ratio: 1400/540;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;

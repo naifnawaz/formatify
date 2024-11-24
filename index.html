@@ -19,12 +19,17 @@
       <option value="formal letter">formal letter</option>
     </select>
     <button onclick="chosenOption()" id="chooseButton">Display</button>
-    <div class="imageContainer">
-      <img src="" alt="format" id="image" onerror="this.style.display='none'" />
-    </div>
-    <div class="scrollButtonContainer">
+
+    <div class="imageButtonContainer">
       <button id="previous"><<</button>
-      <p id="egNo">1</p>
+      <div class="imageContainer">
+        <img
+          src=""
+          alt="format"
+          id="image"
+          onerror="this.style.display='none'"
+        />
+      </div>
       <button id="next">>></button>
     </div>
 

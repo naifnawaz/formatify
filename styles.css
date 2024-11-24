@@ -34,9 +34,8 @@ body {
 }
 
 .imageContainer {
-  margin-top: 10px;
   width: 600px;
-  background-color: gray;
+  background-color: #212121;
 }
 
 #image {
@@ -48,7 +47,7 @@ body {
   transform: scale(1.01);
 }
 
-.scrollButtonContainer {
+/* .scrollButtonContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,4 +57,19 @@ body {
 
 .scrollButtonContainer button {
   height: 40px;
+} */
+
+.imageButtonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.imageButtonContainer button {
+  width: 50px;
+  height: auto;
+  /* display: none;  */
 }

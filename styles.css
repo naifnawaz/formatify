@@ -64,18 +64,20 @@ body {
   width: 35px;
   height: auto;
   transition: all 0.25s ease;
-  background-color: #b3ff00;
+  background-color: #3b3a3a;
   border-radius: 15px;
   border: none;
-
+  color: #b3ff00;
+  outline: solid 0.5px #b3ff00;
   /* display: none;  */
 }
 
 .imageButtonContainer button:hover {
-  background-color: #86b41c;
-  -webkit-box-shadow: 0px 0px 27px -10px rgba(179, 255, 0, 0.75);
-  -moz-box-shadow: 0px 0px 27px -10px rgba(179, 255, 0, 0.75);
-  box-shadow: 0px 0px 27px -10px rgba(179, 255, 0, 0.75);
+  background-color: #b3ff00;
+  color: #212121;
+  -webkit-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  -moz-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
 }
 .righteous-regular {
   font-family: "Righteous", sans-serif;

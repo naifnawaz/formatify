@@ -17,6 +17,7 @@ function chosenOption() {
   let selected = document.getElementById("dropdown").selectedIndex;
   image.removeAttribute("style");
   image.removeAttribute("onerror");
+  index = 0;
   switch (selected) {
     case 0:
       selectedFormat = casualLetter;

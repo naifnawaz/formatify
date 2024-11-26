@@ -18,6 +18,7 @@ body {
 
 label {
   font-family: Righteous;
+  color: gray;
   font-size: 20px;
 }
 
@@ -35,16 +36,53 @@ label {
 .tutorial {
   text-align: center;
   font-family: Righteous;
+  color: gray;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 #chooseButton {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
   margin-top: 15px;
+  outline: solid 0.5px #b3ff00;
+  background-color: #3b3a3a;
+  color: gray;
+  font-family: Righteous;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+#chooseButton:hover {
+  background-color: #b3ff00;
+  color: black;
+  -webkit-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  -moz-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
 }
 
 #dropdown {
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  font-family: Righteous;
+  color: gray;
+  background-color: #3b3a3a;
+  border-radius: 15px;
+  text-align: center;
   margin-top: 10px;
+  outline: solid 0.5px #b3ff00;
+  transition: all 1s ease;
+}
+
+#dropdown:hover {
+  background-color: #b3ff00;
+  color: black;
+  -webkit-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  -moz-box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
+  box-shadow: 0px 0px 27px -8px rgba(179, 255, 0, 0.75);
 }
 
 .imageContainer {
@@ -79,7 +117,7 @@ label {
   border: none;
   color: #b3ff00;
   outline: solid 0.5px #b3ff00;
-  /* display: none;  */
+  display: none;
 }
 
 .imageButtonContainer button:hover {

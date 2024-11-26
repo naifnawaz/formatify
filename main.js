@@ -2,10 +2,12 @@ let image = document.getElementById("image");
 const btnNext = document.getElementById("next");
 const btnPrevious = document.getElementById("previous");
 let index = 0;
+
 let selectedFormat = [];
 const casualLetter = [
-  "images/Screenshot(77).png",
-  "images/Screenshot_20241108_090323.png",
+  "images/casualletter/cas1.jpg",
+  "images/casualletter/cas2.jpg",
+  "images/casualletter/Screenshot_20241126_082840.jpg",
 ];
 
 const formalLetter = [
@@ -15,6 +17,8 @@ const formalLetter = [
 
 function chosenOption() {
   let selected = document.getElementById("dropdown").selectedIndex;
+  btnNext.style.display = "inline-block";
+  btnPrevious.style.display = "inline-block";
   image.removeAttribute("style");
   image.removeAttribute("onerror");
   index = 0;
